@@ -36,14 +36,12 @@ The dataset used in this project is:
 
 The visualizations created in this project include:
 
-- Price Distribution
 - Price vs Registration Year
 - Price vs Mileage
 - Average Price by Previous Owners
 - Average Price by Fuel Type
 - Average Price by Body Type
 - Average Price by Gearbox
-- Correlation Heatmap
 
 ---
 
@@ -65,7 +63,6 @@ df = pd.read_csv("used_cars_UK.csv")
 # Display the first 10 rows
 df.head(10)
 ```
-
 ---
 
 ## Price vs Registration Year
@@ -85,7 +82,7 @@ plt.ylabel("Price")
 
 plt.show()
 ```
-
+<img width="1280" height="800" alt="WhatsApp Image 2026-07-27 at 6 46 50 PM (4)" src="https://github.com/user-attachments/assets/59b2a335-9c56-4f6f-8376-bc7a0cd22b0d" />
 ---
 
 ## Price vs Mileage
@@ -105,7 +102,7 @@ plt.ylabel("Price")
 
 plt.show()
 ```
-
+<img width="1280" height="800" alt="WhatsApp Image 2026-07-27 at 6 46 50 PM (2)" src="https://github.com/user-attachments/assets/879b3f00-00f3-4f56-ac89-84186fcfa1d1" />
 ---
 
 ## Average Car Price by Previous Owners
@@ -128,7 +125,7 @@ plt.ylabel("Average Price")
 
 plt.show()
 ```
-
+<img width="1280" height="800" alt="WhatsApp Image 2026-07-27 at 6 46 50 PM (1)" src="https://github.com/user-attachments/assets/054e2acd-f616-4bd9-a854-12fe6995b716" />
 ---
 
 ## Average Car Price by Fuel Type
@@ -153,6 +150,7 @@ plt.xticks(rotation=45)
 
 plt.show()
 ```
+<img width="1280" height="800" alt="WhatsApp Image 2026-07-27 at 6 46 50 PM (3)" src="https://github.com/user-attachments/assets/901e1177-c81a-4a99-9369-a90adf997852" />
 
 ---
 
@@ -178,7 +176,7 @@ plt.xticks(rotation=45)
 
 plt.show()
 ```
-
+<img width="1280" height="800" alt="WhatsApp Image 2026-07-27 at 6 46 50 PM" src="https://github.com/user-attachments/assets/17ef31dc-4b32-4935-a940-46822e67b8eb" />
 ---
 
 ## Average Car Price by Gearbox
@@ -201,6 +199,6 @@ plt.ylabel("Average Price")
 
 plt.show()
 ```
-
-
+<img width="1280" height="800" alt="WhatsApp Image 2026-07-27 at 6 46 49 PM" src="https://github.com/user-attachments/assets/f2a4222e-c607-4170-8367-55781576e0e3" />
+---
 
